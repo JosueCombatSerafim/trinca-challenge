@@ -1,0 +1,78 @@
+.loginContainer {
+  width: 100vw;
+  height: auto;
+  background-color: #ffd836;
+  flex: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .inputLoginContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 25px;
+
+    .inputSpan {
+      margin: 0 0 13px;
+
+      font-size: 21px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .loginInput {
+      background: #fff;
+      border: none;
+      height: 50px;
+      width: 30vw;
+      max-width: 30vw;
+      border-radius: 2px;
+      padding: 0 20px;
+
+      font-size: 18px;
+      font-style: italic;
+      color: #000;
+
+      @media (max-width: 900px) {
+        width: 80vw;
+        max-width: 80vw;
+      }
+    }
+
+    .errorMessageInput {
+      min-height: 14px;
+      font-size: 11px;
+      color: red;
+      font-style: italic;
+    }
+  }
+
+  .loginSubmitButton {
+    height: 50px;
+    width: 30vw;
+    max-width: 30vw;
+    background: #000;
+    border-radius: 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+
+    @media (max-width: 900px) {
+      width: 80vw;
+      max-width: 80vw;
+    }
+
+    &:hover {
+      background: lighten($color: #000, $amount: 5);
+      color: lighten($color: #fff, $amount: 5);
+    }
+  }
+}

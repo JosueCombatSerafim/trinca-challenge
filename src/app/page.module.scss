@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  min-height: 100vh;
+  background: #fff;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffd836;
+    width: 100vw;
+    height: 10vh;
+
+    .headerTitle {
+      font-size: 32px;
+      font-weight: bolder;
+      color: #000;
+    }
+  }
+
+  .footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+
+  .footerNotLogged {
+    background: #ffd836;
+  }
+}

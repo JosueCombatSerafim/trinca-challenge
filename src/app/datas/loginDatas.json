@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "email": "teste@teste.com",
+      "password": "12345678",
+      "name": "Pessoa 01",
+
+      "eventsList": [
+        {
+          "date": "15/10",
+          "totalValue": 350,
+          "eventName": "Niver da empresa",
+          "people": [
+            { "name": "Alice", "paid": false },
+            { "name": "Beto", "paid": false },
+            { "name": "Diego B.", "paid": false },
+            { "name": "Fernando", "paid": false },
+            { "name": "Gabriel", "paid": false },
+            { "name": "Paulo", "paid": false },
+            { "name": "Michele", "paid": false }
+          ]
+        },
+        {
+          "date": "23/10",
+          "totalValue": 200,
+          "eventName": "Pool party",
+          "people": [
+            { "name": "Alice", "paid": false },
+            { "name": "Beto", "paid": false },
+
+            { "name": "Fernando", "paid": false },
+
+            { "name": "Paulo", "paid": false }
+          ]
+        }
+      ]
+    },
+    {
+      "email": "testetrinca@trinca.com",
+      "password": "12345678",
+      "name": "Pessoa 02",
+
+      "eventsList": [
+        {
+          "date": "15/10",
+          "totalValue": 350,
+          "eventName": "Niver da empresa",
+          "people": [
+            { "name": "Alice", "paid": false },
+            { "name": "Beto", "paid": false },
+            { "name": "Diego B.", "paid": false },
+            { "name": "Fernando", "paid": false },
+            { "name": "Gabriel", "paid": false },
+            { "name": "Paulo", "paid": false },
+            { "name": "Michele", "paid": false }
+          ]
+        },
+        {
+          "date": "23/10",
+          "totalValue": 200,
+          "eventName": "Pool party",
+          "people": [
+            { "name": "Alice", "paid": false },
+            { "name": "Beto", "paid": false },
+
+            { "name": "Fernando", "paid": false },
+
+            { "name": "Paulo", "paid": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
